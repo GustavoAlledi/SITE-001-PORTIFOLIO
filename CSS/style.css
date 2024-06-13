@@ -50,27 +50,27 @@ header{
     background-position: center center;  
 }
 #cabeça > div:hover{
-    background-color: black;
+    background-color: rgb(71, 71, 71);
     flex-grow: 7;    
 }
 #cdiv1{
     
-    background-color: aqua;
+    background-color: rgb(34, 34, 34);
     
 }
 #cdiv2{
-    background-color: rgb(136, 123, 123);
+    background-color: rgb(44, 44, 44);
 }
 #cdiv3{
     flex-grow: 7;
-    background-color: bisque;
+    background-color: rgb(54, 54, 54);
     
 }
 #cdiv4{
-    background-color: blue;
+    background-color: rgb(64, 64, 64);
 }
 #cdiv5{
-    background-color: rgb(113, 113, 180);
+    background-color: rgb(74, 74, 74);
 }
 
 #menu{
@@ -112,12 +112,12 @@ header{
     background-color: rgba(0, 0, 0, 0.178);
     padding: 8px 10px;
     border-radius:10px;
-    border: 1px solid rgb(0, 0, 0);
-    flex-direction: row;
+    border: 1px solid rgba(0, 0, 0, 0.438);
+    
     align-items: center;
     gap: 10px;
     
-    text-align: justify;
+    
 }
 #menu > ul:hover > li{    
     display: flex;   
@@ -127,8 +127,9 @@ header{
     scale: 1.02;
     color: white;
     gap: 16px;
-    transition: 0.2s;   
+    transition: 0.1s;   
     cursor: pointer;
+    
 }
 /*
 height: fit-content;  
@@ -143,7 +144,7 @@ body{
 }
     
 #corpo2{
-    align-items: right;
+    
 }
 #corpo1 > div{
     
@@ -152,9 +153,8 @@ body{
     display: flex;
 }
 #corpo2 > .divtext{
-    background-color: rgba(105, 102, 102, 0.315);
-    
-    height: 1000px;
+    background-color: rgba(0, 0, 0, 0.116);    
+    height: 1000px;    
     margin: 20px;
     border-radius: 20px;
     box-shadow: 2px 2px 2px black;
