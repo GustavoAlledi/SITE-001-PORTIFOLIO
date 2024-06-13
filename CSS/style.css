@@ -1,5 +1,13 @@
 @charset "UTF-08";
 
+/* CONSIDERAÇÕES INICIAIS
+1º -> AS CORES UTILIZADAS NO SITE MODELO FORAM SELECIONADAS APENAS PARA FACILITAR A IDENTIFICAÇÃO DE DIVS BOX E AFINS PELO CRIADOR
+2º -> TODO O SITE FOI CRIADO A PARTIR DA UTILIZAÇÃO DE CSS3 E HTML5 NAO HAVENDO AINDA INTERAÇÃO COM USUARIO
+3º -> SITE MODELO EM CONSTRUÇÃO, PARA MAIS INFORMAÇÕES CONTATE (28) 99917-9646 (GUSTAVO ALLEDI) VIA WPP
+*/
+
+
+
 /* 
 cores utilizadas no site 
 #B17244
@@ -65,6 +73,7 @@ header{
     flex-grow: 7;
     background-color: rgb(54, 54, 54);
     
+    
 }
 #cdiv4{
     background-color: rgb(64, 64, 64);
@@ -77,7 +86,7 @@ header{
     background-image: linear-gradient(to right,#B17244,#86634A,#5C4D42);
     align-items: auto;
     height: 100px;   
-    
+    position: relative;
 }
 #logomenu{
     height: 60px;
@@ -108,24 +117,26 @@ header{
 #menu > ul > li{
     display: none;
     width: auto;
-    color: rgb(10, 10, 10);
-    background-color: rgba(0, 0, 0, 0.178);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     padding: 8px 10px;
-    border-radius:10px;
-    border: 1px solid rgba(0, 0, 0, 0.438);
-    
+    border-radius:0px 10px 10px;
+    border: 1px solid rgb(0, 0, 0);
+    position: relative;
     align-items: center;
     gap: 10px;
+    
     
     
 }
 #menu > ul:hover > li{    
     display: flex;   
-    
+    position: relative;
 }
 #menu > ul > li:hover{
-    scale: 1.02;
-    color: white;
+    background-color: rgb(105, 105, 105);
+    color: rgb(255, 255, 255);
+    scale: 1.02;    
     gap: 16px;
     transition: 0.1s;   
     cursor: pointer;
@@ -144,10 +155,10 @@ body{
 }
     
 #corpo2{
-    
+    background-color: #1b1714;
 }
 #corpo1 > div{
-    
+    background-color:#966039 ;
 }
 #corpo2 > div{
     display: flex;
@@ -158,6 +169,9 @@ body{
     margin: 20px;
     border-radius: 20px;
     box-shadow: 2px 2px 2px black;
+    color: rgb(131, 123, 123);
+    border: 10px;
+    
 }
 
 
